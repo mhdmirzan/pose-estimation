@@ -1,0 +1,34 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+venv
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Temp files
+uploads/*
+results/*
+!uploads/.gitkeep
+!results/.gitkeep
+
+# Frontend source (we assume build artifacts are in frontend/dist or similar if not multi-stage)
+# If we are building frontend inside docker, we need source.
+# For this simple setup, we often copy everything. 
+# But let's exclude local node_modules
+frontend/node_modules
+node_modules
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+heroku.yml
