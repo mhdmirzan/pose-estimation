@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# YOLO / Ultralytics
+yolo11*-pose.pt
+*.pt
+runs/
+
+# Project specific
+results/*
+!results/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Node / React
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.eslintcache
+
+# OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.bak
