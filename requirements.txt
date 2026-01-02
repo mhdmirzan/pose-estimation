@@ -4,6 +4,6 @@ torchvision
 fastapi
 uvicorn
 python-multipart
+# ultralytics includes a lot, we rely on its dependencies but avoid extras
 ultralytics
-numpy
 opencv-python-headless

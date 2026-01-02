@@ -1,0 +1,10 @@
+*.pt
+*.mp4
+*.jpg
+*.png
+*.jpeg
+frontend/node_modules
+docs
+test*
+__pycache__
+*.pyc
